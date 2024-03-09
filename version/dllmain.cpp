@@ -74,7 +74,7 @@ DWORD WINAPI Payload(LPVOID lpParam)
 
     //Console Menu
     std::vector<Checkbox> checkboxes = { 
-          {_XOR_("Inf Health"), true}
+          {_XOR_("Inf Health"), false}
         , {_XOR_("Inf Grenades"), true}
         , {_XOR_("Inf Grenades(Legit)"), false}
         , {_XOR_("Inf Ammo"), true}
