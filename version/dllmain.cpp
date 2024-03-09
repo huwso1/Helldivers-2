@@ -75,18 +75,18 @@ DWORD WINAPI Payload(LPVOID lpParam)
     //Console Menu
     std::vector<Checkbox> checkboxes = { 
           {_XOR_("Inf Health"), false}
-        , {_XOR_("Inf Grenades"), true}
-        , {_XOR_("Inf Grenades(Legit)"), false}
-        , {_XOR_("Inf Ammo"), true}
-        , {_XOR_("Inf Ammo(Legit)"), false}
-        , {_XOR_("Inf Syringes"), true}
-        , {_XOR_("Inf Syringes(Legit)"), false}
+        , {_XOR_("Inf Grenades"), false}
+        , {_XOR_("Inf Grenades(Legit)"), true}
+        , {_XOR_("Inf Ammo"), false}
+        , {_XOR_("Inf Ammo(Legit)"), true}
+        , {_XOR_("Inf Syringes"), false}
+        , {_XOR_("Inf Syringes(Legit)"), true}
         , {_XOR_("Inf Stamina"), true}
         , {_XOR_("Inf Stratagems"), true}
         , {_XOR_("MoveSpeed X6"), false}
         , {_XOR_("Inf Mission Time"), false}
         //, {"One / Two Hit Kill ( Bile Titan Bug, Aim Only Head )", false}
-        , {_XOR_("No Reload"), true}
+        , {_XOR_("No Reload"), false}
         , {_XOR_("No Reload V2"), true}
         , {_XOR_("Max Resources"), false}
         , {_XOR_("Add 5 Samples"), false}
