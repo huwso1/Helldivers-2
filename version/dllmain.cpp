@@ -94,7 +94,7 @@ DWORD WINAPI Payload(LPVOID lpParam)
         , {_XOR_("Inf Backpack"), true}
         , {_XOR_("Inf Special Weapon"), false}
         , {_XOR_("No Laser Cannon Overheat"), true}
-        , {_XOR_("Instant Railgun"), true}
+        , {_XOR_("Instant Railgun"), false}
         , {_XOR_("Show All Map Icons"), true}
         , {_XOR_("No Stationary Turret Overheat"), true}
         , {_XOR_("No Backpack Shield Cooldown"), true}
